@@ -1,0 +1,49 @@
+@import 'https://fonts.googleapis.com/css?family=Frijole';
+
+
+body {
+	background-color: #000;
+}
+
+#lost {
+	width: 65%;
+	display: block;
+	margin: auto;
+	
+}
+
+h1 {
+	font-family: 'Frijole', cursive;
+	font-size: 30px;
+	color: red;
+	text-align: center;
+	margin-top: 50px;
+}
+
+
+.button {
+	display: block;
+	width: 90px;
+	margin-bottom: 50px;
+	padding: 2px;
+	text-decoration: none;
+	border-radius: 6px;
+	text-align: center;
+	background-color: black;
+	color: grey;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid red;
+
+}
+
+.button:hover {
+	color: black;
+	background-color: red;
+}
+
+button {
+	margin-bottom: 50px;
+}
+
+

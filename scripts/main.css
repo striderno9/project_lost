@@ -1,0 +1,73 @@
+@import 'https://fonts.googleapis.com/css?family=Amatic+SC';
+
+body {
+	background-color: #000;
+	color: grey;
+	text-align: center;
+	font-family: 'Amatic SC', cursive;
+}
+
+#S1 {
+	height: 400px;
+	
+	
+}
+
+#a1 {
+	height: 400px;
+
+
+}
+
+.sit_1, .sit_2, .sit_3a, .sit_3b, .sit_4a, .sit_4b, .sit_5 {
+	font-size: 30px;
+	margin-top: 40px;
+}
+
+
+#c1 {
+	font-size: 16px;
+	margin-top: 40px;
+	background-color: black;
+	color: red;
+	border-radius: 12px;
+	border: 1px solid red;
+
+}
+
+
+#c1:hover {
+	background-color: red;
+	color: black;
+}
+
+span {
+	color: red;
+}
+
+
+
+#dead {
+	display: block;
+	margin:auto;
+	
+}
+
+
+#cave {
+	width: 40%;
+	display: block;
+	margin:auto;
+}
+
+.start_over {
+	text-decoration: none;
+	color: red;
+}
+
+#bush {
+	width: 30%;
+	display: block;
+	margin: auto;
+}
+
