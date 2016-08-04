@@ -19,13 +19,21 @@ body {
 
 }
 
-.sit_1, .sit_2, .sit_3a, .sit_3b, .sit_4a, .sit_4b, .sit_5 {
-	font-size: 30px;
+.sit_1, .sit_2, .sit_3a, .sit_3b, .sit_4a, .sit_4b {
+	font-size: 38px;
 	margin-top: 40px;
 }
 
+.sit_5 {
+	font-size: 38px;
+	margin-top: 40px;
+	background-color: white;
 
-#c1 {
+}
+
+
+
+#a1 input {
 	font-size: 16px;
 	margin-top: 40px;
 	background-color: black;
@@ -36,7 +44,7 @@ body {
 }
 
 
-#c1:hover {
+#a1 input :hover {
 	background-color: red;
 	color: black;
 }
@@ -60,14 +68,29 @@ span {
 	margin:auto;
 }
 
+
 .start_over {
 	text-decoration: none;
 	color: red;
+	margin-bottom: 110px;
 }
 
 #bush {
-	width: 30%;
 	display: block;
 	margin: auto;
+}
+
+#bugs {
+	display: block;
+	margin: auto;
+	width: 15%;
+	margin-top: 200px;
+}
+
+#trudge {
+	width: 18%;
+	margin: auto;
+	display: block;
+
 }
 

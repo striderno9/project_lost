@@ -12,6 +12,7 @@
 				<div class="sit_1">
 					You are lost in the woods. It's raining, you're cold, you're hungry and you're being hunted...<br>
 					You're seeking shelter, you're looking for food, and you need a map...
+					
 				</div>
 
 				<!-- branching paths based on chocies begins here -->
@@ -22,18 +23,21 @@
 				</div>
 		
 				<div class="sit_3a">
-					You walk into the cave, going deeper and deeper, the light of the moon gives you just enough light to see where you are going<br>
-					Until you come upon a wall with mysterious cavings on it, you touch it, but can't make out what it 	says, then you hear a noise!<br>
+					You walk into the cave, going deeper and deeper, the light of the moon gives you just enough<br> light to see where you are going
+					Until you come upon a wall with mysterious cavings on it, you touch it,<br> but can't make out what it says, then you hear a noise!</br>
 					A hungry bear comes and kills you.
 					<img id="dead" src="images/dead.png">
 					<a class="start_over" href="start.html">Star Over</a>
 				</div>
 		
 				<div class="sit_3b">
+
 					You walk away from the cave, unsure if that was the right decision, but you're too hungry to worry about that now.<br>
-					As you walk, you smell a hint sweet berries in the air. Finally something to eat! You fall to your hands and knees searching for<br>
+					As you walk, you smell a hint sweet berries in the air. Finally something to eat!<br> You fall to your hands and knees searching for<br>
 					a berry bush. You find it... but these berries don't look ripe, they might do more harm than good. Do you <span>eat</span> them?<br>
-					or <span>not?</span>
+					or <span>not?</spa>
+				<img id="bush" src="images/bush.png">
+			
 				</div>
 
 				<div class="sit_4a">
@@ -43,11 +47,13 @@
 
 				<div class="sit_4b">
 					You throw the berries to the floor in disgust, you decide to keep searching for something to eat, and after<br> half a hour with no results you decide it's time to lower your standards, and eat some <span>bugs</span>.
+					<img id="bugs" src="images/worms2.png">
 					
 				</div>
 
 				<div class="sit_5">
-					After crying and puking for about an hour you finally get up and wipe your mouth because it's time to move on... but where to <span>next</span>?
+					After crying and puking for hours, the sun is starting to peek out beyond the trees, you finally get up and wipe your mouth because it's time to move on... but where to <span>next</span>?
+					<img id="trudge" src="images/trudge.gif">
 				</div>
 
 
@@ -57,29 +63,29 @@
 
 			<div id="a1">
 
-					<input type="button" class="choice_1" id="c1" value="Continue on...">
+					<input type="button" class="choice_1" value="Continue on...">
 
-					<input type="button" class="choice_2a" id="c1" value="Go inside">
+					<input type="button" class="choice_2a" value="Go inside">
 
-					<input type="button" class="choice_2b" id="c1" value="Look for food">
+					<input type="button" class="choice_2b" value="Look for food">
 
-					<input type="button" class="choice_3a" id="c1" value="Eat the berries">
+					<input type="button" class="choice_3a" value="Eat the berries">
 
-					<input type="button" class="choice_3b" id="c1" value="Drop the berries">
+					<input type="button" class="choice_3b" value="Drop the berries">
 
-					<input type="button" class="choice_4a" id="c1" value="Lay on the ground and cry">
+					<input type="button" class="choice_4a" value="Lay on the ground and cry">
 
-					<input type="button" class="choice_4b" id="c1" value="Force yourself to puke">
+					<input type="button" class="choice_4b" value="Force yourself to puke">
 
-					<input type="button" class="choice_5a" id="c1" value="Trudge on...">
+					<input type="button" class="choice_5a" value="To be continued...">
 
-					<input type="button" class="choice_5b" id="c1" value="Find some bugs">
+					<input type="button" class="choice_5b" value="Time to find some bugs">
 
 
 			</div>
 			
 		
-		
+	<audio id="bear" preload="auto" src ="audio/bear.mp3"></audio>	
 	<audio autoplay="true" loop="true" src="audio/darkness.mp3"></audio>
 
 	<script src="js/jquery-3.1.0.min.js"></script>
